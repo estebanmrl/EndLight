@@ -10,26 +10,14 @@ Platform assembly: G:\SandBox\EndLight\Build\EndLight_Data\Managed\UnityEngine.d
 Loading G:\SandBox\EndLight\Build\EndLight_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: G:\SandBox\EndLight\Build\EndLight_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading G:\SandBox\EndLight\Build\EndLight_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.085 seconds
+- Completed reload, in  0.060 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 Platform assembly: G:\SandBox\EndLight\Build\EndLight_Data\Managed\Boo.Lang.dll (this message is harmless)
-UnloadTime: 0.914690 ms
+UnloadTime: 1.160147 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 539.
-Total: 0.802652 ms (FindLiveObjects: 0.023947 ms CreateObjectMapping: 0.009835 ms MarkObjects: 0.112037 ms  DeleteObjects: 0.005131 ms)
-
-UnloadTime: 0.813343 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 539.
-Total: 0.966860 ms (FindLiveObjects: 0.026940 ms CreateObjectMapping: 0.013684 ms MarkObjects: 0.103912 ms  DeleteObjects: 0.006414 ms)
-
-UnloadTime: 0.840283 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 539.
-Total: 0.741074 ms (FindLiveObjects: 0.023947 ms CreateObjectMapping: 0.011973 ms MarkObjects: 0.093649 ms  DeleteObjects: 0.005131 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 567.
+Total: 1.081464 ms (FindLiveObjects: 0.035920 ms CreateObjectMapping: 0.014966 ms MarkObjects: 0.176609 ms  DeleteObjects: 0.006842 ms)
 
