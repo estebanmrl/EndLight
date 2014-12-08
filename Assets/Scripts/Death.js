@@ -9,3 +9,11 @@ function OnTriggerEnter2D(hitCheck : Collider2D)
 		Application.LoadLevel (0);//Resets the scene, if static variables reasign them in Awake()
 	}	
 }
+
+function Awake()
+{
+	DoorTrigger.angleStop = 0;
+	DoorTrigger.currentAngle = 0;
+	DoorTrigger.rand = 0;
+	DoorTrigger.angleCompare = 0;
+}

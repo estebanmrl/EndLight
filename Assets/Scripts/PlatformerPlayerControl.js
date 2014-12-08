@@ -44,12 +44,12 @@ function FlipSprite()
 	scaleX = transform.localScale;
 	if (Input.GetAxis("Horizontal") > 0)
 	{
-		scaleX.x = 1;
+		scaleX.x = 0.5;
 		transform.localScale = scaleX;
 	}
 	else if (Input.GetAxis("Horizontal") < 0)
 		{
-			scaleX.x = -1;
+			scaleX.x = -0.5;
 			transform.localScale = scaleX;
 		}
 }
