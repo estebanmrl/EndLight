@@ -20,7 +20,15 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 7, y: 7}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: PixelSnap
+        second: 0
     m_Colors:
       data:
         first:
