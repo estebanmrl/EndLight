@@ -9,11 +9,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 95: {fileID: 9500000}
   - 68: {fileID: 6800000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Lava
+  m_Name: SpikeTwoGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,9 +24,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.63843203, y: -.0315119624, z: 0}
-  m_LocalScale: {x: .5, y: .5, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: .502847731, y: -4.90055656, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -41,50 +40,11 @@ EdgeCollider2D:
   m_Material: {fileID: 6200000, guid: dd732ad8164aa724a91beeba6af92d00, type: 2}
   m_IsTrigger: 1
   m_Points:
-  - {x: -.602311134, y: .493834496}
-  - {x: -.569406152, y: .512752295}
-  - {x: -.5315575, y: .51985997}
-  - {x: -.457052886, y: .566877604}
-  - {x: -.422768384, y: .55078131}
-  - {x: -.463306069, y: .519459069}
-  - {x: -.352213919, y: .435779333}
-  - {x: -.273239315, y: .519967556}
-  - {x: -.220947102, y: .509476304}
-  - {x: -.169257954, y: .565669239}
-  - {x: -.127608106, y: .541240036}
-  - {x: -.162660286, y: .508243799}
-  - {x: -.0756183043, y: .44428575}
-  - {x: .0505640991, y: .518333077}
-  - {x: .159823179, y: .564065635}
-  - {x: .172022045, y: .539009094}
-  - {x: .148375064, y: .510793507}
-  - {x: .218601838, y: .456349283}
-  - {x: .272951454, y: .50894475}
-  - {x: .299758345, y: .503997564}
-  - {x: .321790755, y: .537038743}
-  - {x: .35645017, y: .525663078}
-  - {x: .390010059, y: .556106746}
-  - {x: .403476149, y: .532295227}
-  - {x: .377169013, y: .498812318}
-  - {x: .482207954, y: .433944255}
-  - {x: .506920934, y: .457667768}
-  - {x: .543351412, y: .463079304}
-  - {x: .600000024, y: .468908042}
---- !u!95 &9500000
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6d89133dcee46e74ca08d2110ad01950, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  - {x: -.512794614, y: -.255891055}
+  - {x: -.255798817, y: .261316121}
+  - {x: -.00201228121, y: -.23614648}
+  - {x: .240310729, y: .230679035}
+  - {x: .507700026, y: -.250679642}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -117,7 +77,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8e874a7a71a362c4995429d986edc7c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 658da0cdd92ce3e43bb70bf81b33dc89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
