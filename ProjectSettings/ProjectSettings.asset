@@ -16,8 +16,8 @@ PlayerSettings:
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 1060
+  defaultScreenHeightWeb: 700
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   m_ActiveColorSpace: 0
@@ -101,7 +101,7 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
-  resolutionDialogBanner: {fileID: 2800000, guid: 5684ae450321e1d4288b775abd60cc56,
+  resolutionDialogBanner: {fileID: 2800000, guid: 93309c7d47d3e594282675e73ace0179,
     type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
